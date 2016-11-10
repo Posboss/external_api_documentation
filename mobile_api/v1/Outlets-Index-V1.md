@@ -22,9 +22,20 @@ none
 
 ###Payload
 
-A list of outlets and metadata:
-
-- **xxx:** TODO Rob
+**hero_image_url:** (String, Url) - The url of a  hero shot of the premise,  food, or other to show off the outlet.
+**logo_image_url:** (String, Url) - The url of the  outlets logo
+**name:** (String, Url) - The name of the outlet
+**Venue type:** (String) -   [ Bar, Cafe, Resturant, Other ]  What do you want to see here @paperkite?
+**Opening hours:**  (String,) - User entered string with opening hours
+**phone_number:**  (String)  - Phone Number to contact the outlet
+**street_address:** (String) -
+**website_url:** (String) -
+**facebook_url:** (String) -
+**instagram_url:** (String) -
+**twitter_url:** (String) -
+**uuid:** (String) - The id of the resource
+**available_to_order:** (Boolean) - Does this outlet have mobile ordering enabled
+**menu_last_updated_at:** (String, DateTime) - The last time the menu was updated
 
 ###Example
 ```json
@@ -32,15 +43,19 @@ A list of outlets and metadata:
   "outlets" : [
     {
       "logo_image_url" : "https://posboss-production.s3.amazonaws.com/uploads/items/0f6aa180-0c48-0131-9fc5-064f8ffec43c/medium.png?1380577747",
+      "hero_image_url" : "https://posboss-production.s3.amazonaws.com/uploads/items/0f6aa180-0c48-0131-9fc5-064f8ffec43c/medium.png?1380577747",
       "name" : "Coffee 86",
-      "promotional_slogan" : "Best coffee in Wellington",
+	    "opening_hours" : "12:30 - 5:00 Sunday,...",
+      "phone_number" : "555-5555"
       "street_address" : "123 Lambton Quay, Wellington",
+      "website_url" : "https://www.coffee86.co.nz",
+      "facebook_url" : "https://facebook.com/cafe86nz",
+      "instagram_url" : "https://instagram.com/cafe86nz",
+      "twitter_url" : "https://twitter.com/cafe86nz",
       "uuid" : "DD2A3476-AE5D-4232-B85B-E0E03803BC0D",
       "available_to_order" : true,
-      "menu_last_updated_at" : "2015-11-03T17:16:16+13:00",
-	   "opening_hours" : "12:30 - 5:00 Sunday,...",
-	   "telephone" : "555-5555"
-    },
+      "menu_last_updated_at" : "2015-11-03T17:16:16+13:00"
+    }
   ]
 }
 ```
