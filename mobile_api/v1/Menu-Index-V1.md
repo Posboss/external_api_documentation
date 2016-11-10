@@ -38,7 +38,7 @@ Returns the current mobile menu structure for an outlet. The response payload co
   "menu": {
     "uuid": "E3CABE53-B9E4-420A-BBEA-E72E4F233BC1",
     "last_updated_at": "2015-11-03T17:16:16+13:00",
-    "pages: [
+    "pages": [
       {
         "name": "Coffee",
         "sections" : [
