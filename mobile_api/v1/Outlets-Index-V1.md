@@ -23,19 +23,33 @@ none
 ###Payload
 
 **hero_image_url:** (String, Url) - The url of a  hero shot of the premise,  food, or other to show off the outlet.
+
 **logo_image_url:** (String, Url) - The url of the  outlets logo
+
 **name:** (String, Url) - The name of the outlet
+
 **Venue type:** (String) -   [ Bar, Cafe, Resturant, Other ]  What do you want to see here @paperkite?
+
 **Opening hours:**  (String,) - User entered string with opening hours
+
 **phone_number:**  (String)  - Phone Number to contact the outlet
+
 **street_address:** (String) -
+
 **website_url:** (String) -
+
 **facebook_url:** (String) -
+
 **instagram_url:** (String) -
+
 **twitter_url:** (String) -
+
 **uuid:** (String) - The id of the resource
+
 **available_to_order:** (Boolean) - Does this outlet have mobile ordering enabled
+
 **menu_last_updated_at:** (String, DateTime) - The last time the menu was updated
+
 
 ###Example
 ```json
