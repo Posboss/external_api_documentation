@@ -60,7 +60,7 @@ none
       "hero_image_url" : "https://posboss-production.s3.amazonaws.com/uploads/items/0f6aa180-0c48-0131-9fc5-064f8ffec43c/medium.png?1380577747",
       "name" : "Coffee 86",
 	    "opening_hours" : "12:30 - 5:00 Sunday,...",
-      "phone_number" : "555-5555"
+      "phone_number" : "555-5555",
       "street_address" : "123 Lambton Quay, Wellington",
       "website_url" : "https://www.coffee86.co.nz",
       "facebook_url" : "https://facebook.com/cafe86nz",
