@@ -2,17 +2,9 @@
 
 Returns the customer that is logged in
 
-### changelog
-
 ##Request
 ### End Point
   > GET mobile_api/v1/customer
-
-### Parameters
-
-### Example:
-  > mobile_api/v1/outlets
-
 
 ##Response
 
@@ -23,10 +15,10 @@ Returns the customer that is logged in
 
 - **customer:**
  - **id:** (String) - Uuid
- - **preferred_name:** (String, Optional)
+ - **preferred_name:** (String, null)
  - **name:** (String)
  - **email_address:** (String)
- - **phone_number:** (String, Optional)
+ - **phone_number:** (String, null)
 
 ###Example
 

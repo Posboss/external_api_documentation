@@ -1,4 +1,4 @@
-# ACTION
+# Item index
 Returns all items from the current mobile menu for an outlet.
 
 ### changelog
