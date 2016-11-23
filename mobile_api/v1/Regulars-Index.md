@@ -1,23 +1,18 @@
-# Nearby Outlets  
-Returns the a list of the basic information of nearby outlets if a lat long is supplied
-Otherwise will return a list of hero outlets decided by posboss
-
-
-This the nearby outlets and the regulars object, are identical
+# Regulars  Index
+Returns the current customers regular outlets
 
 ### changelog
 
 ##Request
 ### End Point
-  > GET mobile_api/v1/nearby_outlets
+  > GET mobile_api/v1/regulars
 
 ### Parameters
 
-- **lat:** (Optional)
-- **long:** (Optional)
+none
 
 ### Example:
-  > GET mobile_api/v1/nearby_outlets?lat=38.8977long=77.0365
+  > GET mobile_api/v1/regulars
 
 
 ##Response
@@ -27,18 +22,19 @@ This the nearby outlets and the regulars object, are identical
 
 ###Payload
 
-- nearby_outlets: (Array) 
+A list of customers regulars:
+
+- customer_regulars: (Array) 
  - **id:** (String) The outlets uuid
  - **lat:** () 
  - **long:** () 
  - **logo_image_url:** (String) url of the outlets Logo image
  - **name:** (string) name of the outlet
 
-
-###example
+###Example
 ```json
 {
-  "nearby_outlets" : [
+  "regulars" : [
     {
       "id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
       "name": "Five Burrows",
