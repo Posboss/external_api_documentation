@@ -2,8 +2,7 @@
 
 Takes a google id_token and returns posboss access_token used to access all the rest of the posboss mobile apis.
 
-The user flow across the App and server looks like.
-
+# High Level Flow 
 User wants to use a posboss resource.
 
 App presents a google login form.
