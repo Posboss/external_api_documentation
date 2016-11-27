@@ -19,6 +19,8 @@ Returns the current mobile menu structure for an outlet. The response payload co
 
 ###Status
   > 200 OK
+  >
+  > If there is no active mobile menu for the requested outlet, it will return a blank menu. 
 
 ###Payload
 
@@ -54,6 +56,18 @@ Returns the current mobile menu structure for an outlet. The response payload co
         ]
       }
     ]
+  }
+}
+```
+
+If there are no active mobile menus:
+
+```json
+{
+  "menu": {
+    "uuid": null,
+    "last_updated_at": null,
+    "pages": []
   }
 }
 ```
