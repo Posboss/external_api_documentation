@@ -40,7 +40,7 @@ A list of customers regulars:
       "name": "Five Burrows",
       "lat": "",
       "long": "",
-      "logo_image_url": "https://eat24-files-live.s3.amazonaws.com/cuisines/v4/cafe.jpg?Signature=7lRr4TRudF64MCWz9U54Ovw9BbM%3D&Expires=1479941955&AWSAccessKeyId=AKIAIEJ2GCCJRT63TBYA"
+      "logo_image_url": "https://s3-ap-southeast-2.amazonaws.com/posboss-production/uploads/profiles/265a42f0-c444-0132-0c7d-021161b97956/medium.png"
     }
   ]
 }
