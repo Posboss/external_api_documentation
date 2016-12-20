@@ -1,6 +1,6 @@
 # Session Create
 
-Takes a google id_token and returns posboss access_token used to access all the rest of the posboss mobile apis.
+Takes a google id_token and returns posboss auth_token  used to access all the rest of the posboss mobile apis.
 
 ## High Level Overview
 
