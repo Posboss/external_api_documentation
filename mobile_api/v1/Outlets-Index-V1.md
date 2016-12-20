@@ -56,7 +56,7 @@ none
 {
   "outlets" : [
     {
-      "logo_image_url" : "https://posboss-production.s3.amazonaws.com/uploads/items/0f6aa180-0c48-0131-9fc5-064f8ffec43c/medium.png?1380577747",
+      "logo_image_url" : "https://s3-ap-southeast-2.amazonaws.com/posboss-production/uploads/profiles/265a42f0-c444-0132-0c7d-021161b97956/medium.png",
       "hero_image_url" : "https://posboss-production.s3.amazonaws.com/uploads/items/0f6aa180-0c48-0131-9fc5-064f8ffec43c/medium.png?1380577747",
       "name" : "Coffee 86",
       "opening_hours" : "12:30 - 5:00 Sunday,...",
