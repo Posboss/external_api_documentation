@@ -32,7 +32,9 @@ This the nearby outlets and the regulars object, are identical
  - **lat:** () 
  - **long:** () 
  - **logo_image_url:** (String) url of the outlets Logo image
+ - **hero_image_url:** (String) url of the outlets hero image
  - **name:** (string) name of the outlet
+ - **style_of_business:** (string) one of [ "cafe" ,  "restaurant", "bar",   "takeaway" , "other", null ]
 
 
 ###example
@@ -44,7 +46,10 @@ This the nearby outlets and the regulars object, are identical
       "name": "Five Burrows",
       "lat": "",
       "long": "",
-      "logo_image_url": "https://s3-ap-southeast-2.amazonaws.com/posboss-production/uploads/profiles/265a42f0-c444-0132-0c7d-021161b97956/medium.png"
+      "logo_image_url": "https://s3-ap-southeast-2.amazonaws.com/posboss-production/uploads/profiles/265a42f0-c444-0132-0c7d-021161b97956/medium.png",
+      "hero_image_url": "https://s3-ap-southeast-2.amazonaws.com/posboss-production/uploads/profiles/265a42f0-c444-0132-0c7d-021161b97956/medium.png",
+      "style_of_business": "cafe"
+
     }
   ]
 }
