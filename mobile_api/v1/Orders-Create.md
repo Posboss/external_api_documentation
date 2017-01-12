@@ -8,7 +8,6 @@ Creates a new order for an outlet and a customer
 ### Parameters
 
 - **order:**
-  - **uuid**
   - **date** A timestamp of when the order was created
   - **order_items**
     - **uuid**
@@ -18,7 +17,7 @@ Creates a new order for an outlet and a customer
     - **modifications** A list of modification uuids
 
 ### Example:
-  > mobile_api/v1/outlets/1427DFF5-53CF-44BB-BF47-420F1D1D0F99/modifications
+  > mobile_api/v1/outlets/1427DFF5-53CF-44BB-BF47-420F1D1D0F99/orders
 
 
 ##Response
@@ -35,7 +34,6 @@ none
 ```json
 {
   "order": {
-    "uuid": "5fe71fa1-4087-41bf-87e5-9453cec6a3c8",
     "date": "2016-11-30T11:01:00+13:00",
     "order_items": [
       {
