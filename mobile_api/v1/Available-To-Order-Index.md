@@ -1,5 +1,5 @@
 # Available To Order
-Returns whether the outlet is open and the user is able to order, a reason for why ordering is not available (e.g. closed)  can be returned if ordering is not available.
+Returns whether the outlet is open and the user is able to order, a reason for why ordering is not available (e.g. closed)  can (optionallu) be returned if ordering is not available.
 
 ##Request
 ### End Point
@@ -18,7 +18,7 @@ none
 
 ###Payload
 - **available_to_order:** (boolean)
-- **reason:** (string)
+- **reason:** (string) optional
 
 ###Example
 ```json
