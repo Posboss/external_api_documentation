@@ -1,5 +1,5 @@
 # Available To Order
-Returns whether the outlet is open and the user is able to order
+Returns whether the outlet is open and the user is able to order, a reason for why ordering is not available (e.g. closed)  can be returned if ordering is not available.
 
 ##Request
 ### End Point
@@ -22,6 +22,7 @@ none
 ###Example
 ```json
 {
-  "available_to_order" : false
+  "available_to_order" : false,
+  "reason": "It is night time"
 }
 ```
