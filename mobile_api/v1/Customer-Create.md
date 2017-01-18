@@ -1,6 +1,6 @@
-# Custmoer Create
+# Customer Create
 Creates a new customer in the database with a google device id.
-Alternativly returns the customer if the device has already been recorded.
+Alternatively returns the customer if the device has already been recorded.
 
 ##Request
 ### End Point
@@ -8,7 +8,7 @@ Alternativly returns the customer if the device has already been recorded.
 
 ### Parameters
 
-**device_id:** (String, Required) The id of the current device 
+**device_id:** (String, Required) The id of the current device
 
 ### Example:
   > POST mobile_api/v1/customers
