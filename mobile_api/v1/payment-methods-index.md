@@ -25,6 +25,7 @@ Retrieves a list of payment methods for a customer
 
 ###Payload
 
+```json
 {
   "payment_methods": [
     {
@@ -34,5 +35,5 @@ Retrieves a list of payment methods for a customer
     }
   ]
 }
-emtpy
+```
 
