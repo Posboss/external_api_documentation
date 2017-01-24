@@ -16,10 +16,11 @@ Retrieves a list of payment methods for a customer
 
 ### Parameters 
 
- **payment_methods:** (Array)
-    **card_type:** (String) Visa, Mastercard etc
-    **token:** (String) Braintree vault token used for making transactions with a cc
-    **image_url:** (String) Url to a cute image of the CC type
+- **payment_methods:** (Array)
+
+ -  **card_type:** (String) Visa, Mastercard etc
+ - **token:** (String) Braintree vault token used for making transactions with a cc
+ -  **image_url:** (String) Url to a cute image of the CC type
 
 
 ###Payload
