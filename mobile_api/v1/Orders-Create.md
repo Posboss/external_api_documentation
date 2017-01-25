@@ -20,25 +20,13 @@ Creates a new order for an outlet and a customer
 
 ### Example:
   > mobile_api/v1/outlets/1427DFF5-53CF-44BB-BF47-420F1D1D0F99/orders
-
-
-##Response
-
-###Status
-  > 201 Created
-
-###Payload
-
-none
-
+  
 ###Example
 ```json
 {
   "order": {
-    "date": "2016-11-30T11:01:00+13:00",
     "order_items": [
       {
-        "uuid": "e006e302-7758-4b78-92f8-0866bfdbac43",
         "item_uuid": "ea6822b7-848f-4de5-8ae8-8926073cbd42",
         "notes": "Put the mustard on the side",
         "multiplier": 2,
@@ -63,3 +51,14 @@ none
   }
 }
 ```
+
+##Response
+
+###Status
+  > 201 Created
+
+###Payload
+
+none
+
+
