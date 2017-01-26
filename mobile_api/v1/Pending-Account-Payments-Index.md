@@ -25,15 +25,19 @@ The account payments that will occurr at the next billing cycle
 
 ###Example
 
-```
-json
+```json
+
 {
-  "customer" : {
-    "id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
-    "preferred_name": "Eminem",
-    "name": "Marshall Mathers",
-    "email": "eminem@gmail.com",
-    "phone_number": "021 111 1111"
-  }
+  "pending_account_payments":[
+    {
+      "number_of_transactions":1,
+      "outlet_id":"ca32bab0-c5aa-0134-f355-20c9d0852053",
+      "currency":"NZD",
+      "tax_amount":"1.5",
+      "tax_exclusive":"8.5",
+      "tax_inclusive":"10.0",
+      "tax_rate":"15.0"
+    }
+  ]
 }
 ```
