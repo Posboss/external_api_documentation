@@ -75,20 +75,9 @@ none
               "item_name": "Practical Linen Shirt",
               "notes": "MyString",
               "multiplier": "2.0",
-              "order_item_mod_groups": [
-                {
-                  "uuid": "0c656060-eed8-0131-4532-02c62465f4f2",
-                  "order_item_mods": [
-                    "0c38f4c0-eed8-0131-4529-02c62465f4f2"
-                  ]
-                },
-                {
-                  "uuid": "0c4a8140-eed8-0131-452f-02c62465f4f2",
-                  "order_item_mods": [
-                    "0b194fa0-eed8-0131-44f6-02c62465f4f2",
-                    "0b987370-eed8-0131-450b-02c62465f4f2"
-                  ]
-                }
+              "order_item_mods": [
+                "5808aad2-b706-559d-b491-a84d873e1385",
+                "78088452-057d-5f3b-a8a0-9c215c0d85df"
               ]
             }
           ]
