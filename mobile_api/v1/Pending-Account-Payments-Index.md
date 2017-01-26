@@ -25,8 +25,7 @@ The account payments that will occurr at the next billing cycle
 
 ###Example
 
-```
-json
+```json
 
 {
   "pending_account_payments":[
