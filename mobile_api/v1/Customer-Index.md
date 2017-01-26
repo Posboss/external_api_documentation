@@ -18,7 +18,6 @@ Returns the customer that is logged in
  - **preferred_name:** (String, null)
  - **name:** (String)
  - **email_address:** (String)
- - **phone_number:** (String, null)
 
 ###Example
 
@@ -30,7 +29,6 @@ json
     "preferred_name": "Eminem",
     "name": "Marshall Mathers",
     "email": "eminem@gmail.com",
-    "phone_number": "021 111 1111"
   }
 }
 ```
