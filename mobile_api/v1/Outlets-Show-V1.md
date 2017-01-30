@@ -48,6 +48,8 @@ none
 
 **available_to_order:** (Boolean) - Does this outlet have mobile ordering enabled
 
+**reason:** (string) optional
+
 **menu_last_updated_at:** (String, DateTime) - The last time the menu was updated
 
 
@@ -68,6 +70,7 @@ none
       "twitter_url" : "https://twitter.com/cafe86nz",
       "uuid" : "DD2A3476-AE5D-4232-B85B-E0E03803BC0D",
       "available_to_order" : true,
+      "reason": "Because we are open 24/7",
       "menu_last_updated_at" : "2015-11-03T17:16:16+13:00"
     }
 }

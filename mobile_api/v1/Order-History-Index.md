@@ -36,6 +36,7 @@ none
         ],
         "uuid": "cea92020-c577-0134-fdab-745c89b8cc09",
         "available_to_order": true,
+        "reason": "",
         "menu_last_updated_at": "2017-01-26T11:01:54+13:00",
         "venue_type": null,
         "street_address": null,
@@ -60,7 +61,8 @@ none
           }
         ],
         "uuid": "50b64490-c594-0134-fe0b-745c89b8cc09",
-        "available_to_order": true,
+        "available_to_order": false,
+        "reason": "Closed for the night",
         "menu_last_updated_at": "2017-01-26T14:25:58+13:00",
         "venue_type": null,
         "street_address": null,
