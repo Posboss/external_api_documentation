@@ -3,7 +3,7 @@ Creates a new order for an outlet and a customer
 
 ##Request
 ### End Point
-  > GET mobile_api/v1/outlets/:outlet_uuid/orders
+  > POST mobile_api/v1/outlets/:outlet_uuid/orders
 
 ### Parameters
 
