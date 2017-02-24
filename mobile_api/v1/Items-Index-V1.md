@@ -42,6 +42,7 @@ A list of items:
 	- **sort_order:** (Number) 0-based index for this mod group
   for required, 0 for optional)
 	- **item_mods:** (Array) List of item mods
+		- **uuid:** (String) The uuid of the item mod itself
 		- **favourite:** (Bool) - Is this mod on by default
 		- **sort_order:** (Number) 0-based index for this item mod
 		- **modification_uuid:** (String) The Mod uuid this links up with
@@ -72,11 +73,13 @@ A list of items:
           "required_mod_count" :1 ,
           "item_mods" : [
             {
+              "uuid" : "960161c6-8493-5459-9e12-4a68085d0487",
               "favourite" : true,
               "sort_order" : 0,
               "modification_uuid" : "cd622410-0c46-0131-9f85-064f8ffec43c"
             },
             {
+              "uuid" : "6a023620-e4bd-5407-ab4f-435f880c1660",
               "favourite" : false,
               "sort_order" : 1,
               "modification_uuid" : "0F55AADD-825C-4450-A148-6A2C0F0D07C4"
@@ -90,11 +93,13 @@ A list of items:
           "required_mod_count": 0,
           "item_mods" : [
             {
+              "uuid" : "34edaabf-2a75-53df-93ce-03449f04b69d",
               "favourite" : false,
               "sort_order" : 0,
               "modification_uuid" :"0BBCBA7E-F146-4710-91E9-CFAD9DA89F36"
             },
             {
+              "uuid" : "b0f4eefd-c4a0-5776-b968-7b46e16357ac",
               "favourite" : false,
               "sort_order" : 1,
               "modification_uuid" : "278F4E3B-A1F4-4E67-AAE7-CA1B75BC2EF1"
