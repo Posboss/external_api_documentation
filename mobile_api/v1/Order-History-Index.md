@@ -83,8 +83,8 @@ none
               "uuid": "0c656060-eed8-0131-4532-02c62465f4f2",
               "order_item_mods": [
                {
-                 uuid: "0c38f4c0-eed8-0131-4529-02c62465f4f2",
-                 modification_uuid: "56B37BB3-0428-4660-A0B8-05F446EAC121"
+                 "uuid": "0c38f4c0-eed8-0131-4529-02c62465f4f2",
+                 "modification_uuid": "56B37BB3-0428-4660-A0B8-05F446EAC121"
                }
               ]
             },
@@ -92,12 +92,12 @@ none
               "uuid": "0c4a8140-eed8-0131-452f-02c62465f4f2",
               "order_item_mods": [
                 {
-  uuid: "5808aad2-b706-559d-b491-a84d873e1385",
-        modification_uuid: "EF2C4B7A-8986-4D40-8D47-6AD9451B3653"
+                  "uuid": "5808aad2-b706-559d-b491-a84d873e1385",
+                  "modification_uuid": "EF2C4B7A-8986-4D40-8D47-6AD9451B3653"
                 },
                 {
-  uuid: "78088452-057d-5f3b-a8a0-9c215c0d85df",
-        modification_uuid: "56B37BB3-0428-4660-A0B8-05F446EAC121"
+                  "uuid": "78088452-057d-5f3b-a8a0-9c215c0d85df",
+                  "modification_uuid": "56B37BB3-0428-4660-A0B8-05F446EAC121"
                 }
               ]
             }
