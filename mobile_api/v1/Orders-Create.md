@@ -3,12 +3,12 @@ Creates a new order for an outlet and a customer
 
 ##Request
 ### End Point
-  > GET mobile_api/v1/outlets/:outlet_uuid/orders
+  > POST mobile_api/v1/outlets/:outlet_uuid/orders
 
 ### Parameters
 
 - **order:**
-  - **date** A timestamp of when the order was created
+  - **date** An ISO timestamp of when the order was created
   - **order_items**
     - **item_uuid**
     - **notes**
@@ -25,6 +25,7 @@ Creates a new order for an outlet and a customer
 ```json
 {
   "order": {
+    "date": "2018-03-30T03:30:58.425Z",
     "order_items": [
       {
         "item_uuid": "ea6822b7-848f-4de5-8ae8-8926073cbd42",

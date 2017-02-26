@@ -28,7 +28,7 @@ This the nearby outlets and the regulars object, are identical
 ###Payload
 
 - nearby_outlets: (Array) 
- - **id:** (String) The outlets uuid
+ - **uuid:** (String) The outlets uuid
  - **lat:** () 
  - **long:** () 
  - **logo_image_url:** (String) url of the outlets Logo image
@@ -42,7 +42,7 @@ This the nearby outlets and the regulars object, are identical
 {
   "nearby_outlets" : [
     {
-      "id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
+      "uuid": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
       "name": "Five Burrows",
       "lat": "",
       "long": "",
