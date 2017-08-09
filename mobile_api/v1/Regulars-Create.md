@@ -3,7 +3,7 @@ Create a new connection between an outlet and a customer
 
 ### changelog
 
-##Request
+## Request
 ### End Point
   > POST mobile_api/v1/regulars
 
@@ -11,14 +11,12 @@ Create a new connection between an outlet and a customer
 
 **outlet_id:** (String, Required) The id of the outlet to be added as regular
 
-none
-
 ### Example:
   > POST mobile_api/v1/regulars
 
 ```json
 {
-  "regulars" : [
+  "regulars": [
     {
       "outlet_id": "df878a02-ef85-5a07-a5d0-2dc5fe6036a5"
     },
@@ -29,14 +27,14 @@ none
 }
 ```
 
-##Response
+## Response
 
-###Status
+### Status
   > 200 OK
 
-###Payload
+### Payload
 
 
-###Example
+### Example
 ```json
 ```
