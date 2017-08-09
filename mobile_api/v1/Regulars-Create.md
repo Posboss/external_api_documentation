@@ -20,7 +20,10 @@ none
 {
   "regulars" : [
     {
-      "outlet_id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
+      "outlet_id": "df878a02-ef85-5a07-a5d0-2dc5fe6036a5"
+    },
+    {
+      "outlet_id": "f5740122-55e4-51c5-b88a-954571418ab4"
     }
   ]
 }
