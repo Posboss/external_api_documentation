@@ -9,10 +9,11 @@ Updates the current logged in customer
 ### Parameters
 
 - **customer:**
- - **preferred_name:** (String, null)
- - **name:** (String)
- - **email_address:** (String)
- - **phone_number:** (String, null)
+  - **preferred_name:** (String, null)
+  - **name:** (String)
+  - **email_address:** (String)
+  - **phone_number:** (String, null)
+  - **emoji:** (String, null)
 
 
 ## Response
@@ -23,7 +24,8 @@ Updates the current logged in customer
     "preferred_name": "Eminem",
     "name": "Marshall Mathers",
     "email": "eminem@gmail.com",
-    "phone_number": "021 111 1111"
+    "phone_number": "021 111 1111",
+    "emoji": "🍆"
   }
 }
 ```
@@ -37,8 +39,9 @@ Updates the current logged in customer
  - **id:** (String) - Uuid
  - **preferred_name:** (String,  null)
  - **name:** (String)
- - **email_address:** (String, null )
+ - **email_address:** (String, null)
  - **phone_number:** (String, null)
+ - **emoji:** (String)
 
 ### Example
 
@@ -49,7 +52,8 @@ Updates the current logged in customer
     "preferred_name": "Eminem",
     "name": "Marshall Mathers",
     "email": "eminem@gmail.com",
-    "phone_number": "021 111 1111"
+    "phone_number": "021 111 1111",
+    "emoji": "🍆"
   }
 }
 ```
