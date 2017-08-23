@@ -17,11 +17,9 @@ Updates the current logged in customer
 
 ## Response
 
-```
-json
-
+```json
 {
-  "customer" : {
+  "customer": {
     "preferred_name": "Eminem",
     "name": "Marshall Mathers",
     "email": "eminem@gmail.com",
@@ -44,10 +42,9 @@ json
 
 ### Example
 
-```
-json
+```json
 {
-  "customer" : {
+  "customer": {
     "id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
     "preferred_name": "Eminem",
     "name": "Marshall Mathers",
