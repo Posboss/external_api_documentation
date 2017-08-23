@@ -2,7 +2,7 @@
 
 Updates the current logged in customer
 
-##Request
+## Request
 ### End Point
   > PUT mobile_api/v1/customer
 
@@ -15,7 +15,7 @@ Updates the current logged in customer
  - **phone_number:** (String, null)
 
 
-##Response
+## Response
 
 ```
 json
@@ -30,10 +30,10 @@ json
 }
 ```
 
-###Status
+### Status
   > 200 OK
 
-###Payload
+### Payload
 
 - **customer:**
  - **id:** (String) - Uuid
@@ -42,7 +42,7 @@ json
  - **email_address:** (String, null )
  - **phone_number:** (String, null)
 
-###Example
+### Example
 
 ```
 json
