@@ -1,17 +1,16 @@
 # Customer
-
 Returns the customer that is logged in
 
-##Request
+## Request
 ### End Point
   > GET mobile_api/v1/customer
 
-##Response
+## Response
 
-###Status
+### Status
   > 200 OK
 
-###Payload
+### Payload
 
 - **customer:**
  - **id:** (String) - Uuid
@@ -19,16 +18,16 @@ Returns the customer that is logged in
  - **name:** (String)
  - **email_address:** (String)
 
-###Example
+### Example
 
-```
-json
+```json
 {
   "customer" : {
     "id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
     "preferred_name": "Eminem",
     "name": "Marshall Mathers",
     "email": "eminem@gmail.com",
+    "emoji": "🍆"
   }
 }
 ```
