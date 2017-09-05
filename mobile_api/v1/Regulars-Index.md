@@ -1,9 +1,9 @@
 # Regulars  Index
-Returns the current customers regular outlets
+Returns the current customer's regular outlets
 
 ### changelog
 
-##Request
+## Request
 ### End Point
   > GET mobile_api/v1/regulars
 
@@ -14,33 +14,34 @@ none
 ### Example:
   > GET mobile_api/v1/regulars
 
+## Response
 
-##Response
-
-###Status
+### Status
   > 200 OK
 
-###Payload
+### Payload
 
-A list of customers regulars:
+A list of customers regular outlets:
 
-- customer_regulars: (Array) 
- - **id:** (String) The outlets uuid
- - **lat:** () 
- - **long:** () 
- - **logo_image_url:** (String) url of the outlets Logo image
+- **regulars**: (Array)
+ - **uuid:** (String) an Outlet UUID
+ - **lat:** (String) WGS-84 latitude of the outlet
+ - **long:** (String) WGS-84 longitude of the outlet
+ - **logo_image_url:** (String) url of the outlet's Logo image
+ - **hero_image_url:** (String) url of the hero image for the outlet
  - **name:** (string) name of the outlet
 
 ###Example
 ```json
 {
-  "regulars" : [
+  "regulars": [
     {
       "id": "E9A3450B-B94A-43FB-A085-E33E25D2EE00",
-      "name": "Five Burrows",
-      "lat": "",
-      "long": "",
-      "logo_image_url": "https://s3-ap-southeast-2.amazonaws.com/posboss-production/uploads/profiles/265a42f0-c444-0132-0c7d-021161b97956/medium.png"
+      "name": "Five Boroughs",
+      "lat": "45.909304",
+      "long": "-9.074411",
+      "logo_image_url": "https://posboss-feature.s3.amazonaws.com/uploads/outlets/25a04190-7536-0133-ddbf-022efe9defe5/large.jpg?1504474941",
+      "hero_image_url": "https://posboss-feature.s3.amazonaws.com/uploads/outlets/25a04190-7536-0133-ddbf-022efe9defe5/hero_image/large.jpg?1504576015"
     }
   ]
 }
