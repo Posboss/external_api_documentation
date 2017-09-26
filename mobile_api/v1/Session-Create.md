@@ -35,10 +35,12 @@ THe app can now use this auth token for all futher requests
 
 ### payload
 auth_token: The authtoken that can be used to authenticate all other requests by adding  as param to all other requests
+refresh_token: The refresh_token that can be used to grab another auth_token from /mobile_api/v1/sessions/refresh
 
 ###Example
 ```json
 {
   "auth_token": "c_N98-s6pyNvRvoKbMDx"
+  "refresh_token": "c_N98-s6pyNvRvoKbMDx"
 }
 ```
