@@ -11,7 +11,7 @@ Updates the current logged in customer
 - **customer:**
   - **preferred_name:** (String, null)
   - **name:** (String)
-  - **email_address:** (String)
+  - **email:** (String)
   - **phone_number:** (String, null)
   - **emoji:** (String, null)
 
