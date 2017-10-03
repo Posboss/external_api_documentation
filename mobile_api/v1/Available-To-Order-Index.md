@@ -17,8 +17,14 @@ none
   > 200 OK
 
 ###Payload
-- **available_to_order:** (boolean)
-- **reason:** (string) optional
+- **code:** (string) one of the following [ 
+      "mobile_ordering_disabled",
+      "no_mobile_ordering",
+      "closed",
+      "available"
+    ]
+- **available:** (boolean) required whether or not this place is available to order
+- **message:** (string) required
 
 ###Example
 ```json
