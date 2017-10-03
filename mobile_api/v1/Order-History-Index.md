@@ -25,6 +25,7 @@ none
     {
       "date": "2017-01-26T11:01:54+13:00",
       "outlet": {
+        "unavailable_items_uuids": [],
         "hero_image_url": "/assets/missing.png",
         "logo_image_url": "/assets/missing.png",
         "name": "Meta Kiehn I",
@@ -50,6 +51,7 @@ none
     },
     {
       "date": "2017-01-26T14:25:59+13:00",
+      "unavailable_items_uuids": ["50cecbe0-c594-0134-fe0e-745c89b8cc09"],
       "outlet": {
         "hero_image_url": "/assets/missing.png",
         "logo_image_url": "/assets/missing.png",
