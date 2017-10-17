@@ -3,14 +3,14 @@ Returns whether the outlet is open and the user is able to order, a reason for w
 
 ##Request
 ### End Point
-  > mobile_api/v1/:outlet_uuid/available_to_order
+  > mobile_api/v1/outlets/:outlet_uuid/available_to_order
 
 ### Parameters
 
 none
 
 ### Example:
-> GET mobile_api/v1/:outlet_uuid/available_to_order
+> GET mobile_api/v1/outlets/:outlet_uuid/available_to_order
 
 ##Response
 ###Status
