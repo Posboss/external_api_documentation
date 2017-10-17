@@ -29,7 +29,8 @@ none
 ###Example
 ```json
 {
-  "available_to_order" : false,
-  "reason": "It is night time"
+  "code":"mobile_ordering_disabled",
+  "message":"This outlet is busy and has temperarily disabled mobile orders",
+  "available":false
 }
 ```
